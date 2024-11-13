@@ -1,0 +1,35 @@
+#main-area {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px; /* Space between words */
+    font-size: 24px;
+    margin-top: 20px;
+  }
+  
+  .word {
+    display: flex;
+    gap: 8px; /* Space between letters in a word */
+  }
+  
+  .letter-block {
+    text-align: center;
+  }
+  
+  .cipher-letter {
+    color: gray;
+    font-size: 14px;
+  }
+  
+  .input-letter {
+    width: 30px; /* Slightly larger input for better usability */
+    text-align: center;
+    font-size: 24px;
+    border: 2px solid #dee2e6;
+    border-radius: 5px;
+  }
+  
+  textarea {
+    margin-top: 20px;
+  }
+  
